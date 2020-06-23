@@ -1,0 +1,41 @@
+# Comments from Olivero base theme:
+# This theme is marked as @internal. It is intended to evolve and change over
+# minor releases.
+# As the UI of Drupal improves between minor versions, the mark up and assets
+# in the Olivero theme will change. The Olivero theme is not backwards
+# compatible. If you wish to modify the output or assets of Olivero you can:
+#
+# 1. Copy the whole of Olivero and rename it as your own theme. You will need to
+# manually manage your own updates if you want to stay up to date with Olivero's
+# bug fixes and feature support.
+#
+# 2. Sub-theme Olivero. This is only recommended if you want to make minor
+# tweaks and understand that Olivero could break your modifications as it
+# changes.
+#
+#  Our sub-theme tries not to depart from the base theme
+#  But we need some additional:
+#   mail styles
+#   print styles
+#
+name: Pellucid Olivero
+type: theme
+base theme: olivero
+description: 'A sub-theme of the Drupal default theme. For Bradford Abbas Parish Council'
+# version: VERSION
+core: 8.x
+core_version_requirement: ^8 || ^9
+libraries:
+  - pellucid_olivero/global-styling
+regions:
+  header: Header
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  highlighted: Highlighted
+  breadcrumb: Breadcrumb
+  content_above: Content Above
+  content: Content
+  sidebar: 'Sidebar'
+  featured_bottom: 'Featured bottom'
+  footer_top: 'Footer Top'
+  footer_bottom: 'Footer Bottom'
