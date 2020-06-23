@@ -1,0 +1,20 @@
+{
+  "name": "pellucid_olivero",
+  "version": "1.0.0",
+  "description": "Drupal 8 Theme  for pellucid_build",
+  "author": "Iain Houston <mail@iainhouston.com>",
+  "homepage": "https://iainhouston.com",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iainhouston/pellucid_olivero.git"
+  },
+  "bugs": {
+    "url": "https://github.com/iainhouston/pellucid_olivero/issues"
+  },
+  "licenses": [
+    {
+      "type": "GPL-3.0",
+      "url": "https://opensource.org/licenses/gpl-license"
+    }
+  ]
+}
