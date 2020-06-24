@@ -6,15 +6,28 @@
     border: 0;
 }
 
-body.page-node-type-meeting {
-    border: #b32100 solid 4pt;
+body {
     padding: 0 0.5cm;
     margin: 0;
-    font-size: 9pt;
+    font-size: 11pt;
     line-height: 13pt;
     color: black;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
+}
+
+body.page-node-type-meeting {
+    border: #b32100 solid 4pt;
+}
+
+body.page-node-type-meeting div.block-page-title-block::after {
+    display: block;
+    content: 'The press and public are welcome.';
+    font-size: 12pt;
+    line-height: 14pt;
+    font-weight: bold;
+    padding-bottom: 1pt;
+    padding-top: 1pt;
 }
 
 [dir] .main-content {
@@ -30,27 +43,30 @@ div.grid-full {
 [dir] .region > *,
 [dir] .node__content,
 [dir] .field:not(:last-child),
-[dir] .text-content p, [dir] .cke_editable p,
-body.page-node-type-meeting h1.page-title  {
-  margin-top: 0;
-  margin-bottom: 4pt;
+[dir] .text-content p,
+[dir] .cke_editable p,
+h1.page-title  {
+    margin-top: 0;
+    margin-bottom: 4pt;
 }
 
-body.page-node-type-meeting h1.page-title  {
+h1.page-title  {
     font-size: 14pt;
     line-height: 16pt;
     margin-top: 0;
+    margin-bottom: 16pt;
+    font-weight: bold;
 }
 
 [dir] h2,
 [dir] .field--tag-ref,
 [dir="ltr"] .field--tag-ref__label,
-body.page-node-type-meeting div.field--name-description > p,
-body.page-node-type-meeting div.field__label,
-body.page-node-type-meeting h2 a,
-body.page-node-type-meeting h2 {
-    font-size: 10pt;
-    line-height: 12pt;
+div.field--name-description > p,
+div.field__label,
+h2 a,
+h2 {
+    font-size: 11pt;
+    line-height: 13pt;
     color: darkgrey;
     font-family: Helvetica, Arial, sans-serif;
     text-decoration: none;
@@ -59,33 +75,29 @@ body.page-node-type-meeting h2 {
     text-transform: uppercase;
 }
 
-body.page-node-type-meeting article.node--type-agenda li,
-body.page-node-type-meeting p {
-    font-size: 9pt;
-    line-height: 11pt;
+[dir] .field--tag-ref__item a,
+.text-content, .cke_editable,
+article.node--type-agenda li,
+p {
+    font-size: 11pt;
+    line-height: 13pt;
     color: darkslategray;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
 
+div.node__meta,
 [dir="ltr"] body:not(.is-always-mobile-nav) .site-footer,
-body.page-node-type-meeting header#header,
-body.page-node-type-meeting div.region--highlighted,
-body.page-node-type-meeting div.region--breadcrumb,
-body.page-node-type-meeting aside.region--sidebar,
-body.page-node-type-meeting div.field--name-field-meeting-minutes {
+header#header,
+div.region--highlighted,
+div.region--breadcrumb,
+aside.region--sidebar,
+div.field--name-field-meeting-minutes,
+div.field--name-field-minutes-meeting,
+div.field--name-field-agenda-meeting {
     display: none;
 }
 
-body.page-node-type-meeting div.block-page-title-block::after {
-    display: block;
-    content: 'The press and public are welcome.';
-    font-size: 12pt;
-    line-height: 14pt;
-    font-weight: bold;
-    padding-bottom: 1pt;
-    padding-top: 1pt;
-}
 
 .field--tag-ref__label {
   line-height: 1;
