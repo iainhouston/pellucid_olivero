@@ -1,9 +1,7 @@
 
 @page {
-    size: A4;
+    size: A4 portrait;
     margin: 2cm;
-    padding: 0;
-    border: 0;
 }
 
 body {
@@ -14,6 +12,7 @@ body {
     color: black;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
+    max-height: max-content;
 }
 
 body.page-node-type-meeting {
@@ -31,17 +30,18 @@ body.page-node-type-meeting div.block-page-title-block::after {
 }
 
 [dir] .main-content {
-  padding-top: 14pt;
+  padding: 14pt 0 0 0;
 }
 
 div.grid-full {
-  grid-column-gap: 0px;
+  display: block;
+  max-width: 18cm;
+  margin: 0 auto;
 }
 
 [dir] table,
 [dir] .field,
 [dir] .region > *,
-[dir] .node__content,
 [dir] .field:not(:last-child),
 [dir] .text-content p,
 [dir] .cke_editable p,
@@ -49,6 +49,13 @@ h1.page-title  {
     margin-top: 0;
     margin-bottom: 4pt;
 }
+
+[dir] .node__content {
+  margin: 0;
+  padding: 0;
+  max-height: max-content;
+}
+
 
 h1.page-title  {
     font-size: 14pt;
@@ -59,8 +66,6 @@ h1.page-title  {
 }
 
 [dir] h2,
-[dir] .field--tag-ref,
-[dir="ltr"] .field--tag-ref__label,
 div.field--name-description > p,
 div.field__label,
 h2 a,
@@ -75,15 +80,20 @@ h2 {
     text-transform: uppercase;
 }
 
+[dir] .field--tag-ref,
+[dir="ltr"] .field--tag-ref__label,
 [dir] .field--tag-ref__item a,
 .text-content, .cke_editable,
-article.node--type-agenda li,
-p {
+article.node--type-agenda li {
     font-size: 11pt;
     line-height: 13pt;
     color: darkslategray;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
+}
+
+[dir] .field--tag-ref {
+  padding: 0;
 }
 
 div.node__meta,
@@ -94,8 +104,19 @@ div.region--breadcrumb,
 aside.region--sidebar,
 div.field--name-field-meeting-minutes,
 div.field--name-field-minutes-meeting,
-div.field--name-field-agenda-meeting {
+div.field--name-field-agenda-meeting,
+article.node--type-agenda header {
     display: none;
+}
+
+div.field--name-field-agenda-status {
+  clear: both;
+  height: 30pt;
+}
+
+[dir] .field--label-inline .field--tag-ref__label,
+[dir="ltr"] .field--label-inline .field__items  {
+  padding: 8pt 8pt 8pt 0;
 }
 
 
