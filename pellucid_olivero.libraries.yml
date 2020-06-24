@@ -3,3 +3,8 @@ global-styling:
   css:
     theme:
       css/print.css: {media: print}
+
+swiftmailer:
+  css:
+    theme:
+      css/swiftmail.css: {}
