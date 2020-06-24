@@ -10,6 +10,19 @@ function pellucid_olivero_theme_suggestions_block_alter(&$suggestions, $variable
   }
 }
 
+function pellucid_olivero_preprocess_simplenews_newsletter_body__councillors__email_html(&$variables) {
+  // get reference to static var
+  $v_summons = &myvariable_function('summons_text');
+  // alter static var
+  $v_summons = 'You are summoned to the '.$variables['node']->getTitle();
+  $variables['summons_text']  = $v_summons;
+  // Councillors don't unsubscribe from Meeting summonses
+  $v_bundle = &myvariable_function('bundle');
+  $v_bundle = $variables['node']->getType();
+  $variables['bundle'] = $v_bundle;
+  $variables['simplenews_newsletter_email']  = TRUE;
+}
+
 function pellucid_olivero_preprocess_swiftmailer(&$variables) {
   $bundle = myvariable_function('bundle');
   $variables['bundle'] = $bundle;

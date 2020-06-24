@@ -29,7 +29,7 @@
 h2.webform-section-title,
 .field__label {
   margin: 15px 0;
-  font-size: 24px !important; 
+  font-size: 24px !important;
   text-align: left !important;
 }
 
@@ -94,6 +94,16 @@ p.simplenews-para.first-para {
   margin-top: 15px;
   padding-top: 15px;
   border-top: 2px solid #eeeeee;
+}
+
+div.field--label-inline > div > div,
+div.field--label-inline > h3 {
+  font-weight: normal;
+}
+
+div.field--name-field-agenda ul,
+div.field--name-field-meeting-place ul {
+  list-style: none;
 }
 
 div.simplenews-footer a {
