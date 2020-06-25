@@ -105,6 +105,7 @@ aside.region--sidebar,
 div.field--name-field-meeting-minutes,
 div.field--name-field-minutes-meeting,
 div.field--name-field-agenda-meeting,
+div.field--name-field-agenda-status,
 article.node--type-agenda header {
     display: none;
 }

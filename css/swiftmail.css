@@ -102,8 +102,16 @@ div.field--label-inline > h3 {
 }
 
 div.field--name-field-agenda ul,
-div.field--name-field-meeting-place ul {
+div.field--name-field-meeting-place ul,
+div.field--name-field-minutes-status ul {
   list-style: none;
+}
+
+div.field--name-field-minutes-status a {
+  pointer-events: none;
+  cursor: default;
+  text-decoration: none;
+  color: black;
 }
 
 div.simplenews-footer a {
