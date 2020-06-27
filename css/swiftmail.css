@@ -103,7 +103,8 @@ div.field--label-inline > h3 {
 
 div.field--name-field-agenda ul,
 div.field--name-field-meeting-place ul,
-div.field--name-field-minutes-status ul {
+div.field--name-field-minutes-status ul,
+div.field--name-field-remote-video ul {
   list-style: none;
 }
 
