@@ -27,6 +27,7 @@ core: 8.x
 core_version_requirement: ^8 || ^9
 libraries:
   - pellucid_olivero/global-styling
+  - pellucid_olivero/gallery-styling
 regions:
   header: Header
   primary_menu: 'Primary menu'

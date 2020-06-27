@@ -8,3 +8,8 @@ swiftmailer:
   css:
     theme:
       css/swiftmail.css: {}
+
+gallery-styling:
+  css:
+    layout:
+      css/gallery.css: {}
