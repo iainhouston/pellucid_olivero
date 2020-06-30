@@ -1,0 +1,25 @@
+{
+  "name": "pellucid_olivero",
+  "version": "2.0.10",
+  "description": "Theme toolchain for Bradford Abbas Parish Council ",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iainhouston/pellucid_olivero.git"
+  },
+  "author": "Iain Houston",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iainhouston/pellucid_olivero/issues"
+  },
+  "homepage": "https://github.com/iainhouston/pellucid_olivero#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-notify": "^3.2.0",
+    "gulp-shell": "^0.8.0"
+  }
+}

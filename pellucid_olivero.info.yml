@@ -26,8 +26,8 @@ description: 'A sub-theme of the Drupal default theme. For Bradford Abbas Parish
 core: 8.x
 core_version_requirement: ^8 || ^9
 libraries:
-  - pellucid_olivero/global-styling
-  - pellucid_olivero/gallery-styling
+  - pellucid_olivero/print-styling
+  - pellucid_olivero/pellucid-styling
 regions:
   header: Header
   primary_menu: 'Primary menu'

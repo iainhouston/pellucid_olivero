@@ -1,4 +1,4 @@
-global-styling:
+print-styling:
   version: 1.x
   css:
     theme:
@@ -9,7 +9,7 @@ swiftmailer:
     theme:
       css/swiftmail.css: {}
 
-gallery-styling:
+pellucid-styling:
   css:
     layout:
-      css/gallery.css: {}
+      css/pellucid.css: {}
