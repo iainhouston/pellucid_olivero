@@ -1,3 +1,9 @@
+@media (max-width: 428px){
+	div.site-branding__name {
+		font-size: 12px;
+	}
+}
+
 [dir="ltr"] div.site-branding {
 	margin-right: 18px;
 	margin-left: -18px;
@@ -11,11 +17,6 @@ main div.text-content a, [dir] main div.text-content a {
 
 [dir="ltr"] div.site-branding a {
   color: #313637;
-}
-
-[dir] div.header__left,
-[dir] button.nav-primary__button {
-	background-color: #339966;
 }
 
 div.field--name-field-photo > .field__label {
