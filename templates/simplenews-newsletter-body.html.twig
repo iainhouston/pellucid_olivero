@@ -40,13 +40,21 @@
 #}
 
 <h2 style="margin:10 0; text-align:center; font:24px Arial, sans-serif;">{{ title }}</h2>
-
 {% if bundle == "meeting" %}
   <p style="text-align: center;">
    {{ summons_text }}
   </p>
 {% endif %}
 {{ build }}
+
+{# Insert block related Articles defined in theme preprocess  #}
+{% if related_articles %}
+<div class="relatedarticles">
+  <hr>
+  <h3>Recent News Articles</h3>
+    {{ related_articles }}
+</div>
+{% endif %}
 
 <div class="simplenews-footer"><!-- Footer stuff -->
 <p class="simplenews-para first-para">

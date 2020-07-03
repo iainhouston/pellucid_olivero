@@ -11,21 +11,24 @@ function pellucid_olivero_theme_suggestions_block_alter(&$suggestions, $variable
 }
 
 function pellucid_olivero_preprocess_simplenews_newsletter_body__councillors__email_html(&$variables) {
-  // get reference to static var
-  $v_summons = &myvariable_function('summons_text');
-  // alter static var
-  $v_summons = 'You are summoned to the '.$variables['node']->getTitle();
-  $variables['summons_text']  = $v_summons;
-  // Councillors don't unsubscribe from Meeting summonses
-  $v_bundle = &myvariable_function('bundle');
-  $v_bundle = $variables['node']->getType();
-  $variables['bundle'] = $v_bundle;
-  $variables['simplenews_newsletter_email']  = TRUE;
+  $theBundle = $variables['node']->getType();
+  $variables['bundle'] = $theBundle;
+  if ($theBundle == "meeting") {
+    $variables['summons_text']  = 'You are summoned to the '.$variables['node']->getTitle();
+  }
 }
 
-function pellucid_olivero_preprocess_swiftmailer(&$variables) {
-  $bundle = myvariable_function('bundle');
-  $variables['bundle'] = $bundle;
+function pellucid_olivero_preprocess_simplenews_newsletter_body__regular_news__email_html(&$variables) {
+  $theBundle = $variables['node']->getType();
+  $variables['bundle'] = $theBundle;
+
+  // https://api.drupal.org/api/drupal/core%21modules%21views%21views.module/function/views_embed_view/8.5.x
+  if ($theBundle == 'article') {
+    // $nid = $node->id();
+    // $relatedArticles = views_embed_view('frontpage_news_items', 'latest_news_block', $nid);
+    $relatedArticles = views_embed_view('frontpage_news_items', 'block_2');
+    $variables['related_articles'] = \Drupal::service('renderer')->render($relatedArticles);
+  }
 }
 
 // Way of remembering and setting render-array-global variables
