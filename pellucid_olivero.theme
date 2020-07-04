@@ -31,16 +31,3 @@ function pellucid_olivero_preprocess_simplenews_newsletter_body__regular_news__e
   }
 }
 
-// Way of remembering and setting render-array-global variables
-function &myvariable_function($item = 'default') {
-  $var = &drupal_static(__FUNCTION__);
-  if (!isset($var)) {
-    // generate contents of static variable
-    $var = array();
-  }
-  if (!isset($var[$item])) {
-    // generate initial contents of static variable to be overwritten
-    $var[$item] = 'initial_value';
-  }
-  return $var[$item];
-}

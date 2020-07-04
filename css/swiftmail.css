@@ -26,6 +26,10 @@
   text-align: center !important;
 }
 
+h2, h3 {
+  clear: both;
+}
+
 h2.webform-section-title,
 .field__label {
   margin: 15px 0;
@@ -38,13 +42,12 @@ img {
   border: 0;
   height: auto;
   outline: none;
-  box-shadow: 3px 3px 5px 3px #A9A9A9;
 }
 
 a {
   font-size: 18px;
   text-decoration: none;
-  color: #b32100;
+  color: #0d77b5;
 }
 
 div.body-wrapper {
@@ -54,46 +57,82 @@ div.body-wrapper {
   max-width: 100%;
 }
 
-p, li {
+p, li, td {
+  font-family: serif;
   font-size: 18px;
+  line-height: 26px;
   margin: 10px 0;
 }
 
 blockquote {
   border-left: 2px solid #A0A0A0;
-  padding-left: 15px;
-  display: table-cell;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-left: 10px;
+  display: block;
+}
+
+blockquote::before {
+  content: "“";
+  font-size: 40px;
+}
+
+blockquote::after {
+  content: "";
+  width: 9px;
+  height: 70%;
 }
 
 blockquote p {
   color: #606060;
   font-style: italic;
-  font-size: 16px !important;
+  font-size: 20px;
+  line-height: 28px;
 }
 
 figcaption {
   color: #696969;
   font-size:14px;
   text-align: center;
+  margin-bottom: 10px;
 }
 
 div.simplenews-footer {
+  font-family:Arial, sans-serif;
   margin:15px 0;
   color: #696969;
   font-size:12px;
+  line-height: 16px;
   clear: both;
 }
 
 p.simplenews-para {
+  font-family:Arial, sans-serif;
   margin: 4px 0;
   color: #696969;
   font-size:12px;
+  line-height: 16px;
 }
 
 p.simplenews-para.first-para {
+  font-family:Arial, sans-serif;
   margin-top: 15px;
   padding-top: 15px;
   border-top: 2px solid #eeeeee;
+}
+
+p.link-to-page {
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+div.simplenews-footer a,
+p.link-to-page a {
+  font-family:Arial, sans-serif;
+  font-size:12px;
+  line-height: 16px;
+  color: #0d77b5;
 }
 
 div.field--label-inline > div > div,
@@ -106,6 +145,14 @@ div.field--name-field-meeting-place ul,
 div.field--name-field-minutes-status ul,
 div.field--name-field-remote-video ul {
   list-style: none;
+  padding-left: 0px;
+}
+
+div.field--name-field-agenda li,
+div.field--name-field-meeting-place li,
+div.field--name-field-minutes-status li,
+div.field--name-field-remote-video li {
+  font-family:Arial, sans-serif;
 }
 
 div.field--name-field-minutes-status a {
@@ -115,7 +162,11 @@ div.field--name-field-minutes-status a {
   color: black;
 }
 
-div.simplenews-footer a {
-  font-size:12px;
-  color: #d95d33;
+div.media {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.views-row {
+  margin-bottom: 15px;
 }

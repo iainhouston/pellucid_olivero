@@ -39,12 +39,26 @@
  */
 #}
 
-<h2 style="margin:10 0; text-align:center; font:24px Arial, sans-serif;">{{ title }}</h2>
+{% if bundle == "article" %}
+  <div class="mailpix">
+    <img class="mailpix_img" src="/themes/contrib/pellucid_olivero/images/email_hero.jpg"
+         alt="Bradford Abbas banner hero image">
+  </div>
+{% endif %}
+
+<h2>{{ title }}</h2>
+
+{% set foo = url('<current>') %}
+<p class="link-to-page">
+<a href="{{ foo|render|replace({'simplenews':  ""}) }}">{{ 'You can view this news article in your web browser' }}</a>
+</p>
+
 {% if bundle == "meeting" %}
   <p style="text-align: center;">
-   {{ summons_text }}
+    {{ summons_text }}
   </p>
 {% endif %}
+
 {{ build }}
 
 {# Insert block related Articles defined in theme preprocess  #}
