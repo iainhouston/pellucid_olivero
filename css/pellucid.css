@@ -18,6 +18,10 @@ main div.text-content a, [dir] main div.text-content a {
   box-shadow: inset 0 -1px 0 0 #0d77b5;
 }
 
+body.path-frontpage div.views-row {
+	clear: both;
+}
+
 [dir="ltr"] div.site-branding a {
   color: #313637;
 }
@@ -61,5 +65,3 @@ div.field--name-field-remote-video .field__item {
 [dir="ltr"] .layout--content-narrow figure.align-left {
   margin-left: 10px;
 }
-
-
