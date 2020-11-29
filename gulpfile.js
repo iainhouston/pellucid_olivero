@@ -1,5 +1,5 @@
-const test_site_name = 'vagrant.bapc-drupal9.uk';
-const test_site_alias = '@ba9dev';
+const test_site_name = 'vagrant.bradford-abbas.uk';
+const test_site_alias = '@badev';
 
 const cssSources = ['./css/**/*.css'];
 const drupalPHPSources = ['**/*.{php,inc,theme}'];
