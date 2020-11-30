@@ -1,5 +1,5 @@
-const test_site_name = 'vagrant.bradford-abbas.uk';
-const test_site_alias = '@badev';
+const test_site_name = process.env.DEVSITE;
+const test_site_alias = process.env.DEVALIAS;
 
 const cssSources = ['./css/**/*.css'];
 const drupalPHPSources = ['**/*.{php,inc,theme}'];
@@ -40,3 +40,4 @@ function watch() {
 }
 
 exports.default = gulp.series(serve, drushPHP, watch);
+
