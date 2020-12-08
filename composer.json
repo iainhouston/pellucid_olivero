@@ -12,9 +12,6 @@
 		"type": "git",
 		"url": "git@github.com:iainhouston/pellucid_olivero.git"
 	},
-	"require": {
-		"drupal/olivero": "1.0.*"
-	},
   "minimum-stability": "dev",
   "license": "GPL-3.0-or-later"
 }
