@@ -39,6 +39,11 @@ body.path-taxonomy div.views-row {
   color: #313637;
 }
 
+div.text-content blockquote {
+  font-size: 1.3rem;
+  line-height: normal;
+}
+
 div.field--name-field-photo > .field__label {
   display: none;
 }
