@@ -4,7 +4,7 @@ print-styling:
     theme:
       css/print.css: {media: print}
 
-swiftmailer:
+email:
   css:
     theme:
       css/swiftmail.css: {}
