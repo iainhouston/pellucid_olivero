@@ -7,7 +7,7 @@ print-styling:
 email:
   css:
     theme:
-      css/swiftmail.css: {}
+      css/email.css: {}
 
 pellucid-styling:
   css:
