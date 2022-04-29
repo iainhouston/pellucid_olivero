@@ -37,6 +37,14 @@ h2.webform-section-title,
   text-align: left !important;
 }
 
+.summons {
+  margin-top: 15px;
+  margin-bottom: 25px;
+  font-size: 24px !important;
+  border-bottom: 2px solid #eeeeee;
+  padding-bottom: 25px;
+}
+
 img {
   max-width: 100%;
   border: 0;
