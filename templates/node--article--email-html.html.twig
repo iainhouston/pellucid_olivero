@@ -7,7 +7,7 @@
 <a href=" {{ url('entity.node.canonical', {'node': node.id}) }}">You can view this message in your web browser</a>
 </p>
 
-{{ content|without('comment') }}
+{{ content }}
 
 {# Insert block related Articles defined in theme preprocess  #}
 {% if related_articles %}
