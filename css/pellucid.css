@@ -9,7 +9,7 @@
   }
 
 }
-
+/*
 @media (max-width: 428px){
 	div.site-branding__name {
 		font-size: 12px;
@@ -23,7 +23,7 @@
 }
 [dir] div.header__left {
   background-color: #19689a;
-}
+} */
 
 footer.site-footer div.text-content a,
 main div.text-content a, [dir] main div.text-content a {
@@ -70,9 +70,9 @@ div.field.field--name-field-remote-video.field__items {
   grid-auto-flow: dense;
 }
 
-div.field--name-field-remote-video .field__item {
+/* div.field--name-field-remote-video .field__item {
   max-width: 330px;
-}
+} */
 
 [dir] .layout--content-narrow .text-content blockquote {
   max-width: 100%;
