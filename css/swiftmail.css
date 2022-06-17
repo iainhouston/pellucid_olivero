@@ -16,7 +16,7 @@
   display: block;
   margin: 0 auto;
   padding: 0 5px;
-  float:none;
+  float: none;
 }
 
 .body-wrapper h2 {
@@ -68,7 +68,7 @@ div.body-wrapper {
 p, li, td {
   font-family: serif;
   font-size: 18px;
-  line-height: 26px;
+  line-height: 22px;
   margin: 10px 0;
 }
 
@@ -95,14 +95,17 @@ blockquote p {
   color: #606060;
   font-style: italic;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 24px;
 }
 
 figcaption {
   color: #696969;
-  font-size:14px;
+  font-family: serif;
+  font-style: italic;
+  font-size:12px;
   text-align: center;
-  margin-bottom: 10px;
+  padding-top: 4px;
+	padding-bottom: 4px;
 }
 
 div.simplenews-footer {
