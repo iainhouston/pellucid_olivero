@@ -4,10 +4,10 @@ print-styling:
     theme:
       css/print.css: {media: print}
 
-email:
+swiftmailer:
   css:
     theme:
-      css/email.css: {}
+      css/swiftmail.css: {}
 
 pellucid-styling:
   css:
