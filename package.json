@@ -1,7 +1,7 @@
 {
   "name": "pellucid_olivero",
-  "version": "3.0.0",
-  "description": "Theme toolchain for Bradford Abbas Parish Council ",
+  "version": "4.0.1",
+  "description": "Theme and styling dev toolchain for Bradford Abbas Parish Council ",
   "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
