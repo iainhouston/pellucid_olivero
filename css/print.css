@@ -29,8 +29,11 @@ body.page-node-type-meeting div.block-page-title-block::after {
     padding-top: 1pt;
 }
 
-[dir] .main-content {
-  padding: 14pt 0 0 0;
+div.main-content_container,
+div.block-page-title-block,
+h1, h1 > span {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 div.grid-full {
@@ -96,17 +99,19 @@ article.node--type-agenda li {
   padding: 0;
 }
 
+header#header, header.site-header,
+article.node--type-agenda header,
 div.node__meta,
-[dir="ltr"] body:not(.is-always-mobile-nav) .site-footer,
-header#header,
+div.main-content > a,
 div.region--highlighted,
 div.region--breadcrumb,
+div.social-bar,
 aside.region--sidebar,
 div.field--name-field-meeting-minutes,
 div.field--name-field-minutes-meeting,
 div.field--name-field-agenda-meeting,
 div.field--name-field-agenda-status,
-article.node--type-agenda header {
+[dir="ltr"] body:not(.is-always-mobile-nav) .site-footer {
     display: none;
 }
 
