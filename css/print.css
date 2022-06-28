@@ -75,7 +75,7 @@ h2 a,
 h2 {
     font-size: 11pt;
     line-height: 13pt;
-    color: darkgrey;
+    color: black;
     font-family: Helvetica, Arial, sans-serif;
     text-decoration: none;
     margin: 0;
@@ -90,7 +90,6 @@ h2 {
 article.node--type-agenda li {
     font-size: 11pt;
     line-height: 13pt;
-    color: darkslategray;
     font-family: Helvetica, Arial, sans-serif;
     font-weight: normal;
 }
