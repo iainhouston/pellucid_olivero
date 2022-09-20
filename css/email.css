@@ -16,7 +16,7 @@
   display: block;
   margin: 0 auto;
   padding: 0 5px;
-  float: none;
+  float:none;
 }
 
 .body-wrapper h2 {
@@ -52,6 +52,10 @@ img {
   outline: none;
 }
 
+.field--name-field-image-media img {
+  width: 100% !important;
+}
+
 a {
   font-size: 18px;
   text-decoration: none;
@@ -59,7 +63,7 @@ a {
 }
 
 div.body-wrapper {
-  margin: 0;
+  margin: 0 5px;
   font-family:Arial, sans-serif;
   width:600px;
   max-width: 100%;
@@ -68,7 +72,7 @@ div.body-wrapper {
 p, li, td {
   font-family: serif;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 26px;
   margin: 10px 0;
 }
 
@@ -95,17 +99,14 @@ blockquote p {
   color: #606060;
   font-style: italic;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 28px;
 }
 
 figcaption {
   color: #696969;
-  font-family: serif;
-  font-style: italic;
-  font-size:12px;
+  font-size:14px;
   text-align: center;
-  padding-top: 4px;
-	padding-bottom: 4px;
+  margin-bottom: 10px;
 }
 
 div.simplenews-footer {
@@ -156,7 +157,7 @@ div.field--name-field-meeting-place ul,
 div.field--name-field-minutes-status ul,
 div.field--name-field-remote-video ul {
   list-style: none;
-  padding-left: 0px;
+  padding-left: 0;
 }
 
 div.field--name-field-agenda li,
