@@ -18,17 +18,9 @@ function pellucid_olivero_preprocess_simplenews_newsletter_body__councillors__em
   }
 }
 
-function pellucid_olivero_preprocess_simplenews_newsletter_body__regular_news__email_html(&$variables) {
-  $theBundle = $variables['node']->getType();
-  $variables['bundle'] = $theBundle;
-
-  // https://api.drupal.org/api/drupal/core%21modules%21views%21views.module/function/views_embed_view/8.5.x
-  if ($theBundle == 'article') {
-    // $nid = $node->id();
-    // $relatedArticles = views_embed_view('frontpage_news_items', 'latest_news_block', $nid);
-    $relatedArticles = views_embed_view('frontpage_news_items', 'block_2');
-    $variables['related_articles'] = \Drupal::service('renderer')->render($relatedArticles);
-  }
+function pellucid_olivero_preprocess_node__article__email_html(&$variables) {
+  $relatedArticles = views_embed_view('frontpage_news_items', 'block_2');
+  $variables['related_articles'] = \Drupal::service('renderer')->render($relatedArticles);
 }
 
 function pellucid_olivero_preprocess_node(&$variables) {

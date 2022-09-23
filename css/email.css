@@ -1,22 +1,5 @@
-.align-right  {
-  display: block;
-  padding: 0;
-  margin: 0 0 0 5px;;
-  float: right;
-}
-
-.align-left  {
-  display: block;
-  padding: 0;
-  margin: 0 15px 0 0;
-  float: left;
-}
-
-.align-center {
-  display: block;
-  margin: 0 auto;
-  padding: 0 5px;
-  float:none;
+h2, h3 {
+  clear: both;
 }
 
 .body-wrapper h2 {
@@ -26,8 +9,69 @@
   text-align: center !important;
 }
 
-h2, h3 {
-  clear: both;
+div.align-right.media--type-image img {
+  display: block;
+  padding: 5px;
+  margin: 0 0 0 5px;;
+  float: right;
+}
+
+div.align-left.media--type-image img {
+  display: block;
+  padding: 5px;
+  margin: 0 15px 0 0;
+  float: left;
+}
+
+div.align-center.media--type-image img {
+  display: block;
+  margin: 0 auto;
+  padding: 5px;
+  float: none;
+}
+
+div.media--type-image img {
+  border: 1px solid #999;
+  padding: 5px;
+}
+
+figure.align-right {
+  display: table;
+  padding: 0;
+  margin: 0 0 0 5px;;
+  float: right;
+}
+
+figure.align-left {
+  display: table;
+  padding: 0;
+  margin: 0 15px 0 0;
+  float: left;
+}
+
+figure.align-center {
+  display: table;
+  margin: 0 auto;
+  padding: 0 5px;
+  float: none;
+}
+
+.caption {
+  display: table;
+}
+
+.caption > figcaption {
+  display: table-caption;
+  caption-side: bottom;
+  max-width: none;
+  color: #696969;
+  font-family: serif;
+  font-style: italic;
+  font-size:12px;
+  text-align: center;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #999;
 }
 
 h2.webform-section-title,
@@ -99,14 +143,11 @@ blockquote p {
   color: #606060;
   font-style: italic;
   font-size: 20px;
-  line-height: 28px;
+  line-height: 24px;
 }
 
-figcaption {
-  color: #696969;
-  font-size:14px;
-  text-align: center;
-  margin-bottom: 10px;
+div.relatedarticles {
+  clear: both;
 }
 
 div.simplenews-footer {
@@ -176,7 +217,7 @@ div.field--name-field-minutes-status a {
 
 div.media {
   display: block;
-  margin-bottom: 5px;
+  margin: 5px;
 }
 
 .views-row {
