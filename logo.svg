@@ -1,1 +1,123 @@
-<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="152" height="152" style="fill-rule:evenodd;clip-rule:evenodd"><circle cx="76" cy="76" r="75" style="fill:#2494db;stroke:silver;stroke-width:1.5px" transform="matrix(.99783 0 0 .99863 0 0)"/><path d="M24.514 51.839h11.272" style="fill:none;stroke:#000;stroke-width:1px;stroke-linecap:square" transform="matrix(.99783 0 0 .99863 0 0)"/><path d="m18.522 58.261 6.569-2.279 9.922.067 29.296-5.363 32.179-.603 37.609-.604 1.81 67.576-18.101-2.548.403-30.369s-5.9-8.849-11.598-11.262c-5.698-2.414-13.073-6.034-16.157-5.095-3.083.938-14.23 3.305-17.4 5.095-3.17 1.79-4.186 4.961-4.186 7.24s-1.006 14.078-1.006 14.078l-7.039.402.941-20.763s-5.03-5.181-10.729-7.125c-5.698-1.944-14.313 1.919-14.313 4.131 0 2.213-.234 16.316-.234 16.316l-11.531-2.48-7.307.67.901-29.269-.029 2.185Z" style="fill:#d8d8d8;stroke:#979797;stroke-width:.5px" transform="matrix(.99783 0 0 .99863 0 0)"/><path d="m97.272 92.786-29.229 1.341.872-15.888 1.877-3.419 3.12-2.727s15.584-5.117 17.461-5.117c1.877 0 10.592 4.291 10.592 4.291l-3.151 3.955s.067 0-.737 3.553c-.805 3.553-.805 14.011-.805 14.011ZM60.948 86.281l-24.46.874.234-16.316s1.274-2.882 6.302-5.162c5.028-2.279 10.86 1.475 10.86 1.475s9.019 5.541 7.88 6.681c-1.14 1.14-.816 12.448-.816 12.448Z" style="fill:#4a4a4a;stroke:#979797;stroke-width:.5px" transform="matrix(.99783 0 0 .99863 0 0)"/><path d="m19.356 53.958 6.495-2.484M35.212 51.665l27.702-6.877M35.732 51.474v4.203M46.805 48.609v4.776M62.723 44.979l-.765 5.731M128.25 40.585 62.723 45.17M87.367 42.877l-.573 6.878M128.823 40.203l-1.528 9.17" style="fill:none;stroke:#000;stroke-width:1px;stroke-linecap:square" transform="matrix(.99783 0 0 .99863 0 0)"/><path d="M0 0h152v152H0z" style="fill:none"/></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg
+   viewBox="0 0 152 152"
+   width="152" height="152"
+   version="1.2"
+   baseProfile="tiny-ps"
+   xml:space="preserve"
+   id="svg43"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:serif="http://www.serif.com/">
+   <title>BAPC</title>
+
+    <g id="Oval-1"  transform="matrix(0.997827,0,0,0.998627,-3.19416e-4,3.57009e-5)">
+
+        <circle
+           cx="76"
+           cy="76"
+           r="75"
+           fill="#2494db"
+           stroke="#c0c0c0"
+           stroke-width="1.5px"
+           id="circle2" />
+
+        <path
+           d="M 24.514,51.839 H 35.786"
+           stroke="#000000"
+           stroke-width="1px"
+           stroke-linecap="square"
+           id="path6" />
+
+        <path
+           d="m 18.522,58.261 6.569,-2.279 9.922,0.067 29.296,-5.363 32.179,-0.603 37.609,-0.604 1.81,67.576 -18.101,-2.548 0.403,-30.369 c 0,0 -5.9,-8.849 -11.598,-11.262 -5.698,-2.414 -13.073,-6.034 -16.157,-5.095 -3.083,0.938 -14.23,3.305 -17.4,5.095 -3.17,1.79 -4.186,4.961 -4.186,7.24 0,2.279 -1.006,14.078 -1.006,14.078 l -7.039,0.402 0.941,-20.763 c 0,0 -5.03,-5.181 -10.729,-7.125 -5.698,-1.944 -14.313,1.919 -14.313,4.131 0,2.213 -0.234,16.316 -0.234,16.316 l -11.531,-2.48 -7.307,0.67 0.901,-29.269 z"
+           fill="#d8d8d8"
+           stroke="#979797"
+           stroke-width="0.5px"
+           id="path9" />
+
+        <path
+            d="m 97.272,92.786 -29.229,1.341 0.872,-15.888 1.877,-3.419 3.12,-2.727 c 0,0 15.584,-5.117 17.461,-5.117 1.877,0 10.592,4.291 10.592,4.291 l -3.151,3.955 c 0,0 0.067,0 -0.737,3.553 -0.805,3.553 -0.805,14.011 -0.805,14.011 z"
+            fill="#4a4a4a"
+            stroke="#979797"
+            stroke-width="0.5px"
+            id="path12" />
+
+        <path
+                    d="m 60.948,86.281 -24.46,0.874 0.234,-16.316 c 0,0 1.274,-2.882 6.302,-5.162 5.028,-2.279 10.86,1.475 10.86,1.475 0,0 9.019,5.541 7.88,6.681 -1.14,1.14 -0.816,12.448 -0.816,12.448 z"
+                    fill="#4a4a4a"
+                    stroke="#979797"
+                    stroke-width="0.5px"
+                    id="path15" />
+
+            <path
+                    d="m 19.356,53.958 6.495,-2.484"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="path18" />
+
+            <path
+                    d="M 35.212,51.665 62.914,44.788"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="path21" />
+
+
+            <path
+                    d="m 35.732,51.474 v 4.203"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="path24" />
+
+
+            <path
+                    d="m 46.805,48.609 v 4.776"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="path27" />
+
+            <path
+                    d="M 62.723,44.979 61.958,50.71"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="Line6" />
+
+            <path
+                    d="M 128.25,40.585 62.723,45.17"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="path33" />
+
+            <path
+                    d="m 87.367,42.877 -0.573,6.878"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="path36" />
+
+            <path
+                    d="m 128.823,40.203 -1.528,9.17"
+                    fill="none"
+                    stroke="#000000"
+                    stroke-width="1px"
+                    stroke-linecap="square"
+                    id="path39" />
+
+         </g>
+
+</svg>
