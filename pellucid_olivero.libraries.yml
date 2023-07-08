@@ -7,9 +7,9 @@ print-styling:
 email:
   css:
     theme:
-      css/email.css: {}
+      css/email.css: { preprocess: false }
 
 pellucid-styling:
   css:
     layout:
-      css/pellucid.css: {}
+      css/pellucid.css: { }
